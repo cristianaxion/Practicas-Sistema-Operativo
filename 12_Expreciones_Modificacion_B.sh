@@ -1,9 +1,10 @@
 #!/bin/bash
-
-echo "introduce dos numeros"
-echo--------
-read -p"intrduce el primer numero:" num1
-read -p"introduce el segundo numero:" num2
+num1=$1
+num2=$2
+# echo "introduce dos numeros"
+# echo--------
+# read -p"intrduce el primer numero:" num1
+# read -p"introduce el segundo numero:" num2
 #
 resultado=$(expr $num1 \* $num2)
 echo el resultado es $resultado
